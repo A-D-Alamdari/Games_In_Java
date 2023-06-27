@@ -1,0 +1,25 @@
+MineSweeper:
+
+Minesweeper is a logic puzzle video game genre generally played on personal computers. The game features a grid of clickable 
+squares, with hidden "mines" scattered throughout the board. The objective is to clear the board without detonating any mines, 
+with help from clues about the number of neighboring mines in each field. Variants of Minesweeper have been made that expand 
+on the basic concepts, such as Minesweeper X, Crossmines, and Minehunt. Minesweeper has been incorporated as a minigame in 
+other games, such as RuneScape and Minecraft's 2015 April Fools update.
+
+The origin of Minesweeper is unclear. According to TechRadar, the first version of the game was 1990's Microsoft Minesweeper, 
+but Eurogamer says Mined-Out by Ian Andrew (1983) was the first Minesweeper game. Curt Johnson, the creator of Microsoft 
+Minesweeper, acknowledges that his game's design was borrowed from another game, but it was not Mined-Out, and he does not 
+remember which game it is.
+
+A game of Minesweeper begins when the player first selects a cell on a board. In some versions of the game, the first click 
+is guaranteed to be safe, whilst some other variants further guarantee that all adjacent cells are safe as well. During the 
+game, the player uses information given from the opened cells to deduce further cells that are safe to open, iteratively 
+gaining more information to solve the board. The player is also given the number of remaining mines in the board, known as 
+the minecount, which is calculated as the total number of mines subtracted by the number of flagged cells (thus the minecount 
+can be negative if too many flags have been placed).
+
+To win a game of Minesweeper, all non-mine cells must be opened without opening a mine. There is no score, however there is 
+a timer recording the time taken to finish the game. Difficulty can be increased by adding mines or starting with a larger 
+grid. Microsoft Minesweeper offers three default board configurations, usually known as beginner, intermediate and expert, 
+in order of increasing difficulty. Beginner is usually on an 8x8 or 9x9 board containing 10 mines, Intermediate is usually 
+on a 16x16 board with 40 mines and expert is usually on a 30x16 board with 99 mines, however this is usually customisable.
