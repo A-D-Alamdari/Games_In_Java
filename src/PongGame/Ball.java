@@ -1,8 +1,13 @@
 package PongGame;
 
 import java.awt.*;
+import java.util.Random;
 
 public class Ball extends Rectangle {
+
+    private Random random;
+    private int xVelocity;
+    private int yVelocity;
 
     public Ball() {
 
