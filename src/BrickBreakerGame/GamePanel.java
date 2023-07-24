@@ -8,11 +8,11 @@ import java.util.Random;
 
 public class GamePanel extends JPanel implements Runnable {
 
-    private static final int GAME_WIDTH = 1000;
-    private static final int GAME_HEIGHT = (int)(GAME_WIDTH * (0.5555));
+    private static final int GAME_WIDTH = 700;
+    private static final int GAME_HEIGHT = 600;
     private static final Dimension SCREEN_SIZE = new Dimension(GAME_WIDTH, GAME_HEIGHT);
     private static final int BALL_DIAMETER = 20;
-    private static final int PADDLE_WIDTH = 25;
+    private static final int PADDLE_WIDTH = 20;
     private static final int PADDLE_HEIGHT = 100;
 
     private Thread gameThread;
@@ -42,7 +42,7 @@ public class GamePanel extends JPanel implements Runnable {
     }
 
     public void newPaddle() {
-        paddle = new Paddle(0, (GAME_HEIGHT / 2) - (PADDLE_HEIGHT / 2), PADDLE_WIDTH, PADDLE_HEIGHT, 1);
+        paddle = new Paddle((GAME_WIDTH / 2) - (PADDLE_HEIGHT / 2), (GAME_HEIGHT) - (PADDLE_HEIGHT / 2), PADDLE_HEIGHT, PADDLE_WIDTH, 1);
     }
 
     public void paint(Graphics g) {
@@ -79,7 +79,7 @@ public class GamePanel extends JPanel implements Runnable {
             lastTime = now;
             if (delta >= 1) {
                 move();
-                checkCollision();
+//                checkCollision();
                 repaint();
                 delta--;
             }
